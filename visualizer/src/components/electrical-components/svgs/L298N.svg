@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED1C24;}
+	.st1{fill:#CCCCCC;}
+	.st2{fill:#00CFFF;}
+	.st3{fill:#A8A7A7;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st4{fill:#777676;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st5{fill:#0071BC;}
+	.st6{fill:#333333;}
+	.st7{fill:#B1B2B2;}
+	.st8{fill:#3A3A3A;}
+	.st9{fill:#C6C6C6;}
+	.st10{fill:#D8D8D8;}
+	.st11{fill:#0A0001;}
+	.st12{fill:#AFAEAE;}
+	.st13{fill:#F2F2F2;}
+	.st14{font-family: monospace;}
+	.st15{font-size:8px;}
+	.st16{opacity:0.53;}
+	.st17{fill:#F7931E;}
+	.st18{font-size:3px;}
+	.st19{font-size:4px;}
+	.st20{font-size:5px;}
+	.st21{fill:#E6E6E6;}
+	.st22{fill:#D1C690;}
+</style>
+<path class="st0" d="M143,140H7c-0.6,0-1-0.4-1-1V5c0-0.6,0.4-1,1-1h136c0.6,0,1,0.4,1,1v134C144,139.6,143.6,140,143,140z"/>
+<circle class="st1" cx="135" cy="12" r="6"/>
+<circle cx="135" cy="12" r="4"/>
+<circle class="st1" cx="15" cy="12" r="6"/>
+<circle cx="15" cy="12" r="4"/>
+<circle class="st1" cx="135" cy="131" r="6"/>
+<circle cx="135" cy="131" r="4"/>
+<circle class="st1" cx="15" cy="131" r="6"/>
+<circle cx="15" cy="131" r="4"/>
+<rect x="6" y="79" class="st2" width="27" height="33"/>
+<g id="OUT1" data-pin="OUT1">
+	<circle class="st3" cx="18" cy="88" r="6"/>
+	<path class="st4" d="M16,93.7c0.6,0.2,1.3,0.3,2,0.3s1.4-0.1,2-0.3V82.3c-0.6-0.2-1.3-0.3-2-0.3s-1.4,0.1-2,0.3V93.7z"/>
+</g>
+<g id="OUT2" data-pin="OUT2">
+	<circle class="st3" cx="18" cy="104" r="6"/>
+	<path class="st4" d="M16,109.7c0.6,0.2,1.3,0.3,2,0.3s1.4-0.1,2-0.3V98.3c-0.6-0.2-1.3-0.3-2-0.3s-1.4,0.1-2,0.3V109.7z"/>
+</g>
+<rect x="12" y="95" class="st5" width="12" height="2"/>
+<rect x="117" y="77" transform="matrix(-1 -9.362609e-03 9.362609e-03 -1 260.1189 188.2177)" class="st2" width="27" height="33"/>
+<g id="OUT3" data-pin="OUT3">
+	<circle class="st3" cx="131.9" cy="101" r="6"/>
+	<path class="st4" d="M137.2,98.2c-0.3-0.6-0.7-1.1-1.2-1.6c-0.5-0.5-1.1-0.8-1.7-1.1l-7.7,8.3c0.3,0.6,0.7,1.1,1.2,1.6
+		c0.5,0.5,1.1,0.8,1.7,1.1L137.2,98.2z"/>
+</g>
+<g id="OUT4" data-pin="OUT4">
+	<circle class="st3" cx="132.1" cy="85" r="6"/>
+	<path class="st4" d="M137.9,83.4c-0.2-0.6-0.5-1.3-0.9-1.8c-0.4-0.6-0.9-1.1-1.4-1.4l-9.3,6.5c0.2,0.6,0.5,1.3,0.9,1.8
+		c0.4,0.6,0.9,1.1,1.4,1.4L137.9,83.4z"/>
+</g>
+<rect x="126" y="92" transform="matrix(-1 -9.362609e-03 9.362609e-03 -1 263.1326 187.26)" class="st5" width="12" height="2"/>
+<path class="st6" d="M100,122h9c1.1,0,2-0.9,2-2v-17c0-1.1-0.9-2-2-2h-9c-5.5,0-10,4.5-10,10v1C90,117.5,94.5,122,100,122z"/>
+<path class="st6" d="M56,95h9c1.1,0,2-0.9,2-2V76c0-1.1-0.9-2-2-2h-9c-5.5,0-10,4.5-10,10v1C46,90.5,50.5,95,56,95z"/>
+<g>
+	<circle class="st7" cx="56.5" cy="84.5" r="10"/>
+	<path class="st8" d="M62,76.2v16.7c2.7-1.8,4.5-4.9,4.5-8.3C66.5,81,64.7,77.9,62,76.2z"/>
+</g>
+<g>
+	<circle class="st7" cx="100.5" cy="111.5" r="10"/>
+	<path class="st8" d="M106,103.2v16.7c2.7-1.8,4.5-4.9,4.5-8.3C110.5,108,108.7,104.9,106,103.2z"/>
+</g>
+<rect x="39" y="27" class="st9" width="72" height="4"/>
+<g>
+	<path class="st10" d="M101.8,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H101.8z"/>
+	<path class="st10" d="M93.6,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H93.6z"/>
+	<path class="st10" d="M85.5,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H85.5z"/>
+	<path class="st10" d="M77.3,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H77.3z"/>
+	<path class="st10" d="M69.2,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H69.2z"/>
+	<path class="st10" d="M61,42v18.5c0,0.8,0.7,1.5,1.5,1.5H63c0.8,0,1.5-0.7,1.5-1.5V42H61z"/>
+	<path class="st10" d="M52.9,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H52.9z"/>
+	<path class="st10" d="M44.8,42v18.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H44.8z"/>
+	<path class="st10" d="M97.8,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H97.8z"/>
+	<path class="st10" d="M89.6,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H89.6z"/>
+	<path class="st10" d="M81.4,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H81.4z"/>
+	<path class="st10" d="M73.3,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H73.3z"/>
+	<path class="st10" d="M65.1,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H65.1z"/>
+	<path class="st10" d="M56.9,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H56.9z"/>
+	<path class="st10" d="M48.8,42v4.5c0,0.8,0.7,1.5,1.5,1.5h0.5c0.8,0,1.5-0.7,1.5-1.5V42H48.8z"/>
+</g>
+<rect x="39" y="31" class="st11" width="72" height="11"/>
+<g>
+	<g>
+		<rect x="120" y="27.5" class="st12" width="19" height="5"/>
+		<rect x="122.5" y="26" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="120" y="38.5" class="st12" width="19" height="5"/>
+		<rect x="122.5" y="37" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="120" y="49.5" class="st12" width="19" height="5"/>
+		<rect x="122.5" y="48" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="120" y="60.5" class="st12" width="19" height="5"/>
+		<rect x="122.5" y="59" width="14" height="8"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="11" y="27.5" class="st12" width="19" height="5"/>
+		<rect x="13.5" y="26" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="11" y="38.5" class="st12" width="19" height="5"/>
+		<rect x="13.5" y="37" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="11" y="49.5" class="st12" width="19" height="5"/>
+		<rect x="13.5" y="48" width="14" height="8"/>
+	</g>
+	<g>
+		<rect x="11" y="60.5" class="st12" width="19" height="5"/>
+		<rect x="13.5" y="59" width="14" height="8"/>
+	</g>
+</g>
+<rect x="25" y="113" class="st2" width="50" height="27"/>
+<g id="_x35_V_2_" data-pin="5V">
+	<circle class="st3" cx="66" cy="128" r="6"/>
+	<path class="st4" d="M64,133.7c0.6,0.2,1.3,0.3,2,0.3s1.4-0.1,2-0.3v-11.3c-0.6-0.2-1.3-0.3-2-0.3s-1.4,0.1-2,0.3V133.7z"/>
+</g>
+<g id="GND" data-pin="GND">
+	<circle class="st3" cx="50" cy="128" r="6"/>
+	<path class="st4" d="M55.2,130.9c0.3-0.6,0.6-1.2,0.7-1.9c0.1-0.7,0.1-1.4,0-2l-11.1-1.9c-0.3,0.6-0.6,1.2-0.7,1.9
+		c-0.1,0.7-0.1,1.4,0,2L55.2,130.9z"/>
+</g>
+<g id="_x31_2V" data-pin="12V">
+	<circle class="st3" cx="35" cy="128" r="6"/>
+	<path class="st4" d="M33,133.7c0.6,0.2,1.3,0.3,2,0.3s1.4-0.1,2-0.3v-11.3c-0.6-0.2-1.3-0.3-2-0.3s-1.4,0.1-2,0.3V133.7z"/>
+</g>
+<text transform="matrix(1 0 0 1 35.5532 70.1914)" class="st13 st14 st15">L298N</text>
+<g>
+	<polygon class="st16" points="83.8,118.6 80.4,118.6 78.1,120.9 78.1,124.3 80.4,126.6 83.8,126.6 86.1,124.3 86.1,120.9 	"/>
+	<path id="_x35_V_1_" data-pin="5V" class="st17" d="M82.6,124.1h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C83.6,123.7,83.2,124.1,82.6,124.1z"/>
+</g>
+<g>
+	<polygon class="st16" points="83.8,126.9 80.4,126.9 78.1,129.2 78.1,132.5 80.4,134.9 83.8,134.9 86.1,132.5 86.1,129.2 	"/>
+	<path id="ENA" data-pin="ENA" class="st17" d="M82.6,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C83.6,131.9,83.2,132.4,82.6,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="92,126.9 88.6,126.9 86.3,129.2 86.3,132.5 88.6,134.9 92,134.9 94.3,132.5 94.3,129.2 	"/>
+	<path id="IN1" data-pin="IN1" class="st17" d="M90.8,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C91.8,131.9,91.4,132.4,90.8,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="100.2,126.9 96.8,126.9 94.5,129.2 94.5,132.5 96.8,134.9 100.2,134.9 102.5,132.5 102.5,129.2 	"/>
+	<path id="IN2" data-pin="IN2" class="st17" d="M99,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C100,131.9,99.6,132.4,99,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="108.4,126.9 105,126.9 102.7,129.2 102.7,132.5 105,134.9 108.4,134.9 110.7,132.5 110.7,129.2 	"/>
+	<path id="IN3" data-pin="IN3" class="st17" d="M107.2,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C108.2,131.9,107.8,132.4,107.2,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="116.6,126.9 113.2,126.9 110.9,129.2 110.9,132.5 113.2,134.9 116.6,134.9 118.9,132.5 118.9,129.2 	
+		"/>
+	<path id="IN4" data-pin="IN4" class="st17" d="M115.4,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C116.4,131.9,116,132.4,115.4,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="124.8,126.9 121.4,126.9 119.1,129.2 119.1,132.5 121.4,134.9 124.8,134.9 127.1,132.5 127.1,129.2 	
+		"/>
+	<path id="ENB" data-pin="ENB" class="st17" d="M123.6,132.4h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C124.6,131.9,124.2,132.4,123.6,132.4z"/>
+</g>
+<g>
+	<polygon class="st16" points="124.8,118.6 121.4,118.6 119.1,120.9 119.1,124.3 121.4,126.6 124.8,126.6 127.1,124.3 127.1,120.9 	
+		"/>
+	<path id="_x35_V" data-pin="5V" class="st17" d="M123.6,124.1h-1c-0.6,0-1-0.4-1-1v-1c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1v1
+		C124.6,123.7,124.2,124.1,123.6,124.1z"/>
+</g>
+<text transform="matrix(1 0 0 1 81.1064 117.3193)" class="st13 st14 st18">5V</text>
+<text transform="matrix(1 0 0 1 122.1064 117.3193)" class="st13 st14 st18">5V</text>
+<text transform="matrix(1 0 0 1 80.1064 139.2549)" class="st13 st14 st18">ENA</text>
+<text transform="matrix(1 0 0 1 88.8086 139.2549)" class="st13 st14 st18">IN1</text>
+<text transform="matrix(1 0 0 1 96.8086 139.2549)" class="st13 st14 st18">IN2</text>
+<text transform="matrix(1 0 0 1 104.8086 139.2549)" class="st13 st14 st18">IN3</text>
+<text transform="matrix(1 0 0 1 113.1494 139.2549)" class="st13 st14 st18">IN4</text>
+<text transform="matrix(1 0 0 1 121.5742 139.2549)" class="st13 st14 st18">ENB</text>
+<text transform="matrix(1 0 0 1 35.6382 112.2129)" class="st13 st14 st19">12V</text>
+<text transform="matrix(1 0 0 1 46.6382 112.2129)" class="st13 st14 st19">GND</text>
+<text transform="matrix(1 0 0 1 64.936 112.2129)" class="st13 st14 st19">5V</text>
+<text transform="matrix(1 0 0 1 9.5957 75.7661)" class="st13 st14 st20">OUT1</text>
+<text transform="matrix(1 0 0 1 9.5957 118.1499)" class="st13 st14 st20">OUT2</text>
+<text transform="matrix(1 0 0 1 130.9785 75.7661)" class="st13 st14 st20">OUT4</text>
+<text transform="matrix(1 0 0 1 131.3408 118.1494)" class="st13 st14 st20">OUT3</text>
+<rect x="86" y="73.6" width="23" height="22"/>
+<rect x="89" y="73.6" class="st6" width="20" height="22"/>
+<rect x="77" y="74.8" class="st21" width="10" height="3.5"/>
+<rect x="83" y="82.8" class="st21" width="4" height="3.5"/>
+<rect x="77" y="91.1" class="st21" width="10" height="3.5"/>
+<rect x="79" y="100.3" class="st22" width="4" height="7"/>
+<rect x="79.2" y="100.8" class="st21" width="3.7" height="6"/>
+</svg>

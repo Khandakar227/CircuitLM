@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 60" style="enable-background:new 0 0 120 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3355FF;}
+	.st1{fill:#CCCCCC;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:5px;}
+</style>
+<rect x="0.5" y="0.5" class="st0" width="119" height="59"/>
+<path id="IN_x2B_" data-pin="IN+" class="st1" d="M0.5,0.5v7h7v-7H0.5z M4,5.5C3.2,5.5,2.5,4.8,2.5,4S3.2,2.5,4,2.5S5.5,3.2,5.5,4S4.8,5.5,4,5.5z"
+	/>
+<path id="IN-" data-pin="IN-" class="st1" d="M0.5,52.5v7h7v-7H0.5z M4,57.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5
+	S4.8,57.5,4,57.5z"/>
+<path id="OUT_x2B_" data-pin="OUT+" class="st1" d="M112.5,0.5v7h7v-7H112.5z M116,5.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5
+	S116.8,5.5,116,5.5z"/>
+<path id="OUT-" data-pin="OUT-" class="st1" d="M112.5,52.5v7h7v-7H112.5z M116,57.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5
+	S116.8,57.5,116,57.5z"/>
+<text transform="matrix(1 0 0 1 8.064 57.8086)" class="st2 st3 st4">IN-</text>
+<text transform="matrix(1 0 0 1 8.064 5.8086)" class="st2 st3 st4">IN+</text>
+<text transform="matrix(1 0 0 1 100.064 5.8086)" class="st2 st3 st4">OUT+</text>
+<text transform="matrix(1 0 0 1 101.064 57.8086)" class="st2 st3 st4">OUT-</text>
+</svg>

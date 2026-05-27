@@ -1,0 +1,47 @@
+import { fetchComponentPins } from '@/hooks/useComponentPins';
+
+export async function buildCircuitGenerationPrompt(): Promise<string> {
+  const componentPins = await fetchComponentPins();
+
+  return `You are generating a valid CircuitJson for rendering a circuit diagram.
+componentPins =${JSON.stringify(componentPins)}
+}
+Type definitions:
+type Part = { type: string, id: string, top: number, left: number, rotate?: number, attrs: { value?: string, [key: string]: any }, // e.g., value for resistors, capacitors, inductors etc. }
+type PinReference = \`\${string}:\${string}\`
+type PathInstruction = \`h\${number}\` | \`v\${number}\`
+type Connection = [PinReference, PinReference, string, []]
+type CircuitJson = { version: number; author?: string; editor?: string; parts: Part[]; connections: Connection[] }
+
+Your task:
+1. Create ONLY the CircuitJson as output — no extra text or explanation.
+2. All parts must be from the available components list.
+3. Pins in connections must exist in the component's pin list.
+4. Components should be positioned so they DO NOT overlap and have at least 50px spacing.
+5. Wire paths must be visually neat and follow these rules:
+   - Use only horizontal (h) and vertical (v) moves.
+   - Start by moving away from the pin in a straight line.
+   - Route wires orthogonally (L-shaped or step-shaped) — avoid diagonal or unnecessary zigzags.
+   - Keep wires outside of component bounding boxes.
+   - Prefer round numbers for distances (multiples of 5 or 10) for alignment.
+   - Wire colors should be unique for each connection use hex values or string.
+6. Arrange components so related pins are roughly aligned, minimizing wire length but keeping clarity.
+7. Ensure the JSON is valid, parsable, and human-readable.
+8. No floating wires — all connections must be fully routed.
+9. Canvas is 800x450 keep the components around center. Don't overlap components if possible (focus on height width and postion)
+
+Example:
+{
+  "version": 1,
+  "author": "Shakib",
+  "parts": [
+    { "type": "esp32-devkit-v1", "id": "esp", "top": 80, "left": 50, "attrs": {} },
+    { "type": "buzzer", "id": "buzzer", "top": 150, "left": 250, "attrs": {} }
+  ],
+  "connections": [
+    ["buzzer:VCC", "esp:D21", "green", []],
+    ["buzzer:GND", "esp:GND", "black", []]
+  ]
+}
+`;
+}

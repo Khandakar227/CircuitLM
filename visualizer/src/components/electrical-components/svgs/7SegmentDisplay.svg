@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35.6 67.6" style="enable-background:new 0 0 35.6 67.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF0000;}
+	.st1{fill:#606060;}
+</style>
+<rect y="3.7" width="35.6" height="58.1"/>
+<g transform="skewX(-8) translate(3.5, 4.4) scale(0.81)">
+	<polygon class="st0" points="13.6,10 30.6,10 33.4,12.8 30.6,15.6 13.6,15.6 10.8,12.8 	"/>
+	<polygon class="st0" points="36.3,15.6 36.3,32.6 33.4,35.5 30.6,32.6 30.6,15.6 33.4,12.8 	"/>
+	<polygon class="st0" points="36.3,38.3 36.3,55.3 33.4,58.2 30.6,55.3 30.6,38.3 33.4,35.5 	"/>
+	<polygon class="st0" points="30.6,61 13.6,61 10.8,58.2 13.6,55.3 30.6,55.3 33.4,58.2 	"/>
+	<polygon class="st0" points="7.9,55.3 7.9,38.3 10.8,35.5 13.6,38.3 13.6,55.3 10.8,58.2 	"/>
+	<polygon class="st0" points="7.9,32.6 7.9,15.6 10.8,12.8 13.6,15.6 13.6,32.6 10.8,35.5 	"/>
+	<polygon class="st0" points="13.6,32.6 30.6,32.6 33.4,35.5 30.6,38.3 13.6,38.3 10.8,35.5 	"/>
+</g>
+<circle class="st0" cx="30.9" cy="51" r="2.5"/>
+<g>
+	<rect id="b" data-pin="b" x="32.1" y="-0.2" class="st1" width="1.3" height="6.2"/>
+	<rect id="a" data-pin="a" x="24.6" y="-0.2" class="st1" width="1.3" height="6.2"/>
+	<rect id="com" data-pin="com" x="17.1" y="-0.2" class="st1" width="1.3" height="6.2"/>
+	<rect id="f" data-pin="f" x="9.6" y="-0.2" class="st1" width="1.3" height="6.2"/>
+	<rect id="g" data-pin="g" x="2.1" y="-0.2" class="st1" width="1.3" height="6.2"/>
+</g>
+<g>
+	<rect id="DP" data-pin="DP" x="32.1" y="59.8" class="st1" width="1.3" height="6.2"/>
+	<rect id="c" data-pin="c" x="24.6" y="59.8" class="st1" width="1.3" height="6.2"/>
+	<rect id="com_1_" data-pin="com1" x="17.1" y="59.8" class="st1" width="1.3" height="6.2"/>
+	<rect id="d" data-pin="d" x="9.6" y="59.8" class="st1" width="1.3" height="6.2"/>
+	<rect id="e" data-pin="e" x="2.1" y="59.8" class="st1" width="1.3" height="6.2"/>
+</g>
+</svg>

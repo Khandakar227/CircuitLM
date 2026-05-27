@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 117 83" style="enable-background:new 0 0 117 83;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#006AA8;}
+	.st1{fill:#55C6FF;}
+	.st2{opacity:0.59;fill:#0291C9;}
+	.st3{fill:#848484;}
+	.st4{fill:#707070;}
+	.st5{fill:#F9FF03;stroke:#666666;stroke-width:0.1;stroke-miterlimit:10;}
+	.st6{fill:#AAAAAA;stroke:#666666;stroke-width:0.1;stroke-miterlimit:10;}
+	.st7{fill:#F2F2F2;}
+	.st8{font-family:'MyriadPro-Regular';}
+	.st9{font-size:5px;}
+	.st10{stroke:#000000;stroke-width:0.1;stroke-miterlimit:10;}
+	.st11{fill:#1A1A1A;stroke:#000000;stroke-width:0.1;stroke-miterlimit:10;}
+	.st12{fill:#999999;}
+	.st13{fill:#1C1C1C;}
+	.st14{fill:#C7B299;}
+	.st15{fill:#999999;stroke:#CCCCCC;stroke-width:0.25;stroke-miterlimit:10;}
+	.st16{fill:#CCCCCC;}
+</style>
+<rect class="st0" width="117" height="83"/>
+<rect x="95" y="24.5" class="st1" width="22" height="32"/>
+<rect x="100" y="24.5" class="st2" width="15" height="32"/>
+<g>
+	<circle class="st3" cx="107" cy="32.1" r="5"/>
+	<path class="st4" d="M102,32.1c0,0.2,0,0.3,0.1,0.5h9.9c0-0.2,0.1-0.3,0.1-0.5s0-0.3-0.1-0.5h-9.9C102,31.8,102,32,102,32.1z"/>
+</g>
+<g>
+	<circle class="st3" cx="107" cy="49" r="5"/>
+	<path class="st4" d="M102,49.3c0,0.2,0,0.3,0.1,0.5h9.9c0-0.2,0.1-0.3,0.1-0.5s0-0.3-0.1-0.5h-9.9C102,48.9,102,49.1,102,49.3z"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,13.5 2.6,13.5 0.3,15.8 0.3,19.2 2.6,21.5 5.9,21.5 8.3,19.2 8.3,15.8 	"/>
+	<rect id="INT" x="3.3" y="16.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,21.5 2.6,21.5 0.3,23.8 0.3,27.2 2.6,29.5 5.9,29.5 8.3,27.2 8.3,23.8 	"/>
+	<rect id="SCK" x="3.3" y="24.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,29.5 2.6,29.5 0.3,31.8 0.3,35.2 2.6,37.5 5.9,37.5 8.3,35.2 8.3,31.8 	"/>
+	<rect id="SI" x="3.3" y="32.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,37.5 2.6,37.5 0.3,39.8 0.3,43.2 2.6,45.5 5.9,45.5 8.3,43.2 8.3,39.8 	"/>
+	<rect id="SO" x="3.3" y="40.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,45.5 2.6,45.5 0.3,47.8 0.3,51.2 2.6,53.5 5.9,53.5 8.3,51.2 8.3,47.8 	"/>
+	<rect id="CS" x="3.3" y="48.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,53.5 2.6,53.5 0.3,55.8 0.3,59.2 2.6,61.5 5.9,61.5 8.3,59.2 8.3,55.8 	"/>
+	<rect id="GND" x="3.3" y="56.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="5.9,61.5 2.6,61.5 0.3,63.8 0.3,67.2 2.6,69.5 5.9,69.5 8.3,67.2 8.3,63.8 	"/>
+	<rect id="VCC" x="3.3" y="64.5" class="st6" width="2" height="2"/>
+</g>
+<text transform="matrix(1 0 0 1 9.1274 19.7871)" class="st7 st8 st9">INT</text>
+<text transform="matrix(1 0 0 1 9.1274 27.734)" class="st7 st8 st9">SCK</text>
+<text transform="matrix(1 0 0 1 9.1274 35.6811)" class="st7 st8 st9">SI</text>
+<text transform="matrix(1 0 0 1 9.1274 43.6279)" class="st7 st8 st9">SO</text>
+<text transform="matrix(1 0 0 1 9.1274 51.5748)" class="st7 st8 st9">CS</text>
+<text transform="matrix(1 0 0 1 9.1274 59.5219)" class="st7 st8 st9">GND</text>
+<text transform="matrix(1 0 0 1 9.1274 67.4678)" class="st7 st8 st9">VCC</text>
+<rect x="24.2" y="15.5" class="st6" width="31" height="1"/>
+<rect x="24.2" y="19.3" class="st6" width="31" height="1"/>
+<rect x="24.2" y="23" class="st6" width="31" height="1"/>
+<rect x="24.2" y="38" class="st6" width="31" height="1"/>
+<rect x="24.2" y="34.3" class="st6" width="31" height="1"/>
+<rect x="24.2" y="26.8" class="st6" width="31" height="1"/>
+<rect x="24.2" y="30.5" class="st6" width="31" height="1"/>
+<rect x="24.2" y="45.5" class="st6" width="31" height="1"/>
+<rect x="24.2" y="41.8" class="st6" width="31" height="1"/>
+<rect x="28" y="13" class="st10" width="23" height="36"/>
+<rect x="61.2" y="52" class="st6" width="20" height="1"/>
+<rect x="61.2" y="56" class="st6" width="20" height="1"/>
+<rect x="61.2" y="60" class="st6" width="20" height="1"/>
+<rect x="61.2" y="64" class="st6" width="20" height="1"/>
+<rect x="65.2" y="50.5" class="st11" width="12" height="16"/>
+<g>
+	<rect x="24" y="54.3" class="st12" width="9" height="4.5"/>
+	<rect x="25" y="54.3" class="st13" width="7" height="4.5"/>
+</g>
+<g>
+	<rect x="24" y="66.3" class="st12" width="12" height="5.8"/>
+	<rect x="25.3" y="66.3" class="st13" width="9.3" height="5.8"/>
+</g>
+<g>
+	<rect x="24.5" y="75.3" class="st12" width="8" height="4"/>
+	<rect x="25.4" y="75.3" class="st13" width="6.2" height="4"/>
+</g>
+<g>
+	<rect x="70.5" y="75.3" class="st12" width="8" height="4"/>
+	<rect x="71.4" y="75.3" class="st13" width="6.2" height="4"/>
+</g>
+<g>
+	<rect x="24" y="61" class="st12" width="7.5" height="3.3"/>
+	<rect x="24.8" y="61" class="st14" width="5.8" height="3.3"/>
+</g>
+<g>
+	<rect x="51" y="56" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 112.375 2.875)" class="st12" width="7.5" height="3.3"/>
+	
+		<rect x="51.8" y="56" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 112.375 2.875)" class="st14" width="5.8" height="3.3"/>
+</g>
+<g>
+	
+		<rect x="77" y="18" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 100.375 -61.125)" class="st12" width="7.5" height="3.3"/>
+	
+		<rect x="77.8" y="18" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 100.375 -61.125)" class="st14" width="5.8" height="3.3"/>
+</g>
+<g>
+	
+		<rect x="77" y="28" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 110.375 -51.125)" class="st12" width="7.5" height="3.3"/>
+	
+		<rect x="77.8" y="28" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 110.375 -51.125)" class="st14" width="5.8" height="3.3"/>
+</g>
+<path class="st15" d="M69,41L69,41c-3.3,0-6-2.7-6-6V13c0-3.3,2.7-6,6-6h0c3.3,0,6,2.7,6,6v22C75,38.3,72.3,41,69,41z"/>
+<rect x="40" y="75" class="st12" width="9" height="4"/>
+<rect x="41" y="75" class="st16" width="7" height="4"/>
+<text transform="matrix(1 0 0 1 53.0215 78.4258)" class="st7 st8 st9">POW</text>
+<g>
+	<polygon class="st5" points="90.9,32.5 87.6,32.5 85.3,34.8 85.3,38.2 87.6,40.5 90.9,40.5 93.3,38.2 93.3,34.8 	"/>
+	<rect id="H" x="88.3" y="35.5" class="st6" width="2" height="2"/>
+</g>
+<g>
+	<polygon class="st5" points="90.9,40.5 87.6,40.5 85.3,42.8 85.3,46.2 87.6,48.5 90.9,48.5 93.3,46.2 93.3,42.8 	"/>
+	<rect id="L" x="88.3" y="43.5" class="st6" width="2" height="2"/>
+</g>
+<text transform="matrix(1 0 0 1 87.3613 30.8086)" class="st7 st8 st9">H</text>
+<text transform="matrix(1 0 0 1 87.6172 54.1699)" class="st7 st8 st9">L</text>
+<circle class="st7" cx="110.5" cy="76.5" r="5"/>
+<circle class="st7" cx="110.5" cy="6.5" r="5"/>
+<circle class="st7" cx="6.5" cy="76.5" r="5"/>
+<circle class="st7" cx="5.5" cy="6.5" r="5"/>
+</svg>

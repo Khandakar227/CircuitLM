@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 147 71" style="enable-background:new 0 0 147 71;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFDDC;stroke:#D9E021;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:#232323;}
+	.st2{fill:#3A3A3A;}
+	.st3{fill:#B3B3B3;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:3px;}
+</style>
+<rect x="-1.5" y="3.8" class="st0" width="11.3" height="64"/>
+<rect x="51" y="7.2" width="13" height="57"/>
+<rect x="9.5" y="0.7" class="st1" width="42" height="70"/>
+<path class="st1" d="M147,69c-27.8,0.6-55.7,1.1-83.5,1.7v-70C91.3,1.4,119.2,2.2,147,3C147,25,147,47,147,69z"/>
+<path class="st2" d="M145,67c-16.7,0.3-33.3,0.7-50,1c0-21.3,0-42.7,0-64c16.7,0.3,33.3,0.7,50,1V67z"/>
+<g>
+	<path id="_x33_.3V" class="st3" d="M3.3,56.3H3c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h0.3c1.1,0,2,0.9,2,2v0
+		C5.3,55.4,4.4,56.3,3.3,56.3z"/>
+	<path id="VCC" class="st3" d="M3.3,20H3c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h0.3c1.1,0,2,0.9,2,2v0C5.3,19.1,4.4,20,3.3,20z"/>
+	<path id="GND" class="st3" d="M3.3,29.1H3c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h0.3c1.1,0,2,0.9,2,2v0C5.3,28.2,4.4,29.1,3.3,29.1z"
+		/>
+	<path id="TX" class="st3" d="M3.3,38.2H3c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h0.3c1.1,0,2,0.9,2,2v0C5.3,37.3,4.4,38.2,3.3,38.2z"
+		/>
+	<path id="RX" class="st3" d="M3.3,47.2H3c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h0.3c1.1,0,2,0.9,2,2v0C5.3,46.4,4.4,47.2,3.3,47.2z"
+		/>
+</g>
+<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 6.7236 15.4548)" class="st4 st5">VCC</text>
+<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 6.7236 24.4548)" class="st4 st5">GND</text>
+<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 6.7236 33.4548)" class="st4 st5">TX</text>
+<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 6.7236 42.4548)" class="st4 st5">RX</text>
+<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 6.7236 51.4548)" class="st4 st5">3.3V</text>
+</svg>
