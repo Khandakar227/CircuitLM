@@ -6,13 +6,43 @@ interface GenericComponentProps extends SVGProps<SVGSVGElement> {
     pins: string[];
     name: string;
     rotate?: number;
+    category?: string;
 }
 
-// Sizing heuristics so pins/labels never clutter, regardless of the
-// declared (data) width/height. These are intentionally generous.
-const PIN_SPACING = 22;     // vertical px between adjacent pins on a side
-const LABEL_CHAR_W = 6.2;   // approx px per char at fontSize 10
-const NAME_CHAR_W = 8.5;    // approx px per char at fontSize 14 bold
+/**
+ * Generic fallback body for a component that has no dedicated symbol.
+ *
+ * Redesign notes:
+ *  - The name used to sit in the geometric centre, where it collided with pin
+ *    labels on small parts. It now lives in a header band, so the body stays
+ *    free for the pins.
+ *  - Pin labels get an opaque chip behind them. Wires are drawn under the
+ *    components, and a wire crossing a pin number is the single worst defect
+ *    on a wiring diagram: the person at the terminal block reads the wrong
+ *    screw.
+ *  - Terminals are drawn as ring + stub, the way terminal blocks actually look,
+ *    instead of a flat dot.
+ *  - Category tints the header, so power, sensors and controllers are
+ *    distinguishable at a glance on a dense sheet.
+ */
+
+const PIN_SPACING = 26;
+const LABEL_CHAR_W = 7.4;
+const NAME_CHAR_W = 8.8;
+const HEADER_H = 34;
+const STUB = 12;
+
+const CATEGORY_TINT: Record<string, string> = {
+    microcontroller: "#dbe4ff",
+    controller: "#dbe4ff",
+    sensor: "#e6fcf5",
+    actuator: "#fff4e6",
+    "power supply": "#ffe3e3",
+    power: "#ffe3e3",
+    display: "#f3f0ff",
+    "passive component": "#f1f3f5",
+    "active component": "#f1f3f5",
+};
 
 const GenericComponent: React.FC<GenericComponentProps> = ({
     width,
@@ -22,91 +52,109 @@ const GenericComponent: React.FC<GenericComponentProps> = ({
     x = 0,
     y = 0,
     rotate = 0,
+    category = "",
     ...props
 }) => {
-    // Distribute pins evenly: first half on the left side, rest on the right.
     const leftPins = pins.slice(0, Math.ceil(pins.length / 2));
     const rightPins = pins.slice(Math.ceil(pins.length / 2));
 
-    // Dynamic size: grow the box to fit the pins and their labels, but never
-    // shrink below the declared size. Height scales with pins-per-side; width
-    // fits the left label + centered name + right label without overlap.
     const pinsPerSide = Math.max(leftPins.length, rightPins.length, 1);
-    const minHeight = (pinsPerSide + 1) * PIN_SPACING;
+    const minHeight = HEADER_H + (pinsPerSide + 1) * PIN_SPACING;
 
     const longestLeft = leftPins.reduce((m, p) => Math.max(m, p.length), 0);
     const longestRight = rightPins.reduce((m, p) => Math.max(m, p.length), 0);
-    const minWidth =
-        (longestLeft + longestRight) * LABEL_CHAR_W + name.length * NAME_CHAR_W + 40;
+    const minWidth = Math.max(
+        (longestLeft + longestRight) * LABEL_CHAR_W + 56,
+        name.length * NAME_CHAR_W + 28
+    );
 
-    const w = Math.max(width || 0, minWidth, 60);
-    const h = Math.max(height || 0, minHeight);
+    const w = Math.max(Number(width) || 0, minWidth, 96);
+    const h = Math.max(Number(height) || 0, minHeight);
+    const tint = CATEGORY_TINT[category.toLowerCase()] ?? "#eef0f2";
+
+    const renderPin = (pin: string, index: number, side: "left" | "right", count: number) => {
+        const pinY = HEADER_H + ((h - HEADER_H) / (count + 1)) * (index + 1);
+        const px = side === "left" ? 0 : w;
+        const dir = side === "left" ? -1 : 1;
+        const chipW = pin.length * LABEL_CHAR_W + 12;
+        const chipX = side === "left" ? 8 : w - 8 - chipW;
+        return (
+            <g key={`${side}-${pin}-${index}`}>
+                <line
+                    x1={px}
+                    y1={pinY}
+                    x2={px + dir * STUB}
+                    y2={pinY}
+                    stroke="#343a40"
+                    strokeWidth={2}
+                />
+                {/* data-pin is what getPinPosition() looks up — keep it on the tip */}
+                <circle
+                    cx={px + dir * STUB}
+                    cy={pinY}
+                    r={4.5}
+                    fill="#ffffff"
+                    stroke="#343a40"
+                    strokeWidth={2}
+                    data-pin={pin}
+                />
+                <rect
+                    x={chipX}
+                    y={pinY - 9}
+                    width={chipW}
+                    height={18}
+                    rx={4}
+                    fill="#ffffff"
+                    opacity={0.95}
+                    pointerEvents="none"
+                />
+                <text
+                    x={side === "left" ? 14 : w - 14}
+                    y={pinY}
+                    textAnchor={side === "left" ? "start" : "end"}
+                    dominantBaseline="middle"
+                    fontSize={12}
+                    fontWeight={600}
+                    fill="#212529"
+                    pointerEvents="none"
+                >
+                    {pin}
+                </text>
+            </g>
+        );
+    };
 
     return (
-        <g
-            {...props}
-            transform={`translate(${x}, ${y}) rotate(${rotate}, ${w / 2}, ${h / 2})`}
-        >
-            {/* Main body of the component */}
+        <g {...props} transform={`translate(${x}, ${y}) rotate(${rotate}, ${w / 2}, ${h / 2})`}>
             <rect
                 x={0}
                 y={0}
                 width={w}
                 height={h}
-                fill="#f0f0f0"
-                stroke="#333"
-                strokeWidth={2}
-                rx={4}
+                rx={10}
+                fill="#ffffff"
+                stroke="#343a40"
+                strokeWidth={2.5}
             />
-
-            {/* Component Name Label */}
+            <path
+                d={`M 0 ${HEADER_H} L 0 10 Q 0 0 10 0 L ${w - 10} 0 Q ${w} 0 ${w} 10 L ${w} ${HEADER_H} Z`}
+                fill={tint}
+            />
+            <line x1={0} y1={HEADER_H} x2={w} y2={HEADER_H} stroke="#343a40" strokeWidth={1.5} />
             <text
                 x={w / 2}
-                y={h / 2}
+                y={HEADER_H / 2 + 1}
                 textAnchor="middle"
                 dominantBaseline="middle"
-                fill="#333"
+                fill="#212529"
                 fontSize={14}
                 fontWeight="bold"
-                fontFamily="monospace"
                 pointerEvents="none"
             >
                 {name}
             </text>
-
-            {/* Left side pins */}
-            {leftPins.map((pin, index) => {
-                const pinY = (h / (leftPins.length + 1)) * (index + 1);
-                return (
-                    <g key={`pin-${pin}`}>
-                        {/* Visual pin line */}
-                        <line x1={-10} y1={pinY} x2={0} y2={pinY} stroke="#333" strokeWidth={2} />
-                        {/* The actual data-pin element used by getPinPosition */}
-                        <circle cx={-10} cy={pinY} r={3} fill="#555" data-pin={pin} />
-                        {/* Pin label */}
-                        <text x={4} y={pinY} dominantBaseline="middle" fontSize={10} fill="#666" pointerEvents="none">
-                            {pin}
-                        </text>
-                    </g>
-                );
-            })}
-
-            {/* Right side pins */}
-            {rightPins.map((pin, index) => {
-                const pinY = (h / (rightPins.length + 1)) * (index + 1);
-                return (
-                    <g key={`pin-${pin}`}>
-                        {/* Visual pin line */}
-                        <line x1={w} y1={pinY} x2={w + 10} y2={pinY} stroke="#333" strokeWidth={2} />
-                        {/* The actual data-pin element used by getPinPosition */}
-                        <circle cx={w + 10} cy={pinY} r={3} fill="#555" data-pin={pin} />
-                        {/* Pin label */}
-                        <text x={w - 4} y={pinY} textAnchor="end" dominantBaseline="middle" fontSize={10} fill="#666" pointerEvents="none">
-                            {pin}
-                        </text>
-                    </g>
-                );
-            })}
+            {leftPins.map((pin, i) => renderPin(pin, i, "left", leftPins.length))}
+            {rightPins.map((pin, i) => renderPin(pin, i, "right", rightPins.length))}
         </g>
     );
 };
