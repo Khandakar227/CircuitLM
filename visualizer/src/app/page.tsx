@@ -202,13 +202,22 @@ export default function Home() {
     setCircuitJson(prev => {
       if (!prev) return null;
 
+      // Bail out when nothing actually moved. A fresh circuitJson object was
+      // produced on every mousemove, so the whole effect chain (wires →
+      // components → layout) re-ran for each pixel, even for a zero-distance
+      // move. That is what drives the update-depth crash while dragging.
+      const current = prev.parts.find(p => p.id === componentId);
+      if (current && current.left === newX && current.top === newY) return prev;
+
       const updatedParts = prev.parts.map(part =>
         part.id === componentId
           ? { ...part, left: newX, top: newY }
           : part
       );
 
-      // Update wire router obstacles in the same callback
+      // NOTE: side effect inside a state updater. React may invoke the
+      // updater twice (StrictMode), so only idempotent writes belong here —
+      // setObstacles replaces the whole list, which is safe. Do not add more.
       if (wireRouter) {
         const updatedObstacles = updatedParts.map(part => {
           const componentInfo = componentPins[part.type as keyof typeof componentPins];
@@ -242,6 +251,11 @@ export default function Home() {
 
     const newWires: typeof wires = [];
     const unresolved: typeof unresolvedConnections = [];
+    // Lane numbering restarts on every full recalculation. Without this the
+    // router keeps incrementing lane counters between renders, wire paths
+    // shift on each pass and React never settles ("Maximum update depth
+    // exceeded" while dragging).
+    wireRouter?.resetLanes();
     circuitJson.connections.forEach(([from, to, color, offset], index) => {
       const [fromId, fromPin] = from.split(":");
       const [toId, toPin] = to.split(":");
@@ -725,7 +739,8 @@ export default function Home() {
                               width={Number(pinDefs.width) || 100}
                               height={Number(pinDefs.height) || 100}
                               pins={pinDefs.pins || []}
-                              name={part.type}
+                              name={part.id || part.type}
+                              category={pinDefs.category || ''}
                               rotate={part?.rotate || 0}
                             />
                           )}
